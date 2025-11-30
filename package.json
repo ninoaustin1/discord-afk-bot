@@ -1,13 +1,16 @@
 {
-  "name": "discord-afk-bot",
+  "name": "discord-bot",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "commonjs",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "discord.js": "^14.15.3",
-    "@discordjs/voice": "^0.16.0"
+    "discord.js": "^14.0.0",
+    "@discordjs/voice": "^0.17.0"
   }
 }
+
